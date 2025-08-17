@@ -1,0 +1,62 @@
+[
+  {
+    "owner": "witttccchhher",
+    "repo": "witttccchhher.github.io",
+    "stars": 18,
+    "description": "Nix/NixOS russian articles"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "wplace_status_notifier_bot",
+    "stars": 0,
+    "description": "Telegram bot to monitor wplace.live"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "pa",
+    "stars": 0,
+    "description": "Fork of biox/pa to implement copy functionality"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "witpkgs",
+    "stars": 2,
+    "description": "Custom NixOS packages"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "nix-conf",
+    "stars": 12,
+    "description": "NixOS config files"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "wallpapers",
+    "stars": 6,
+    "description": "Wallpapers collection"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "base16",
+    "stars": 3,
+    "description": "Base16 themes collection"
+  },
+  {
+    "owner": "witttccchhher",
+    "repo": "nextpass",
+    "stars": 1,
+    "description": "Simple Next.js password generator"
+  },
+  {
+    "owner": "itsbrunodev",
+    "repo": "snipnest",
+    "stars": 138,
+    "description": "Useful snippets for many languages"
+  },
+  {
+    "owner": "br0sinski",
+    "repo": "distrohoop",
+    "stars": 44,
+    "description": "Determine your next distro"
+  }
+]

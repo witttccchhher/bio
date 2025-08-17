@@ -1,0 +1,31 @@
+{{define "title"}}gallery{{end}}
+
+{{define "extra_css"}}
+  <link rel="stylesheet" href="/static/styles/gallery.css">
+{{end}}
+{{define "extra_js"}}
+  <script>
+    function openModal(src) {
+      const modal = document.getElementById("modal");
+      const modalImg = document.getElementById("modal-img");
+      modal.style.display = "flex";
+      modalImg.src = src;
+    }
+  
+    function closeModal() {
+      const modal = document.getElementById("modal");
+      modal.style.display = "none";
+    }
+  </script>
+{{end}}
+
+{{block "content" .}}
+  {{range .Images}}
+    <img src="/static/gallery/{{.}}" alt="{{.}}" class="thumb" onclick="openModal(this.src)">
+  {{end}}
+{{end}}
+{{block "extra_content" .}}
+  <div id="modal" onclick="closeModal()">
+    <img id="modal-img" src="">
+  </div>
+{{end}}

@@ -1,0 +1,16 @@
+{{define "title"}}{{.Title}}{{end}}
+
+{{define "extra_css"}}
+  <link rel="stylesheet" href="/static/styles/article.css">
+  <link rel="stylesheet" href="/static/highlight.js/highlight.min.css">
+{{end}}
+{{define "extra_js"}}
+  <script src="/static/highlight.js/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+{{end}}
+
+{{define "content"}}
+  {{.Title}} <br>
+  <em>{{.Date}}</em> <br> <br>
+  <article>{{.HTMLContent}}</article>
+{{end}}

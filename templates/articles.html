@@ -1,0 +1,13 @@
+{{define "title"}}articles{{end}}
+
+{{define "extra_css"}}
+  <link rel="stylesheet" href="/static/styles/articles.css">
+{{end}}
+
+{{define "content"}}
+  <ol>
+    {{range .Articles}}
+      <li><a href="/articles/{{.Slug}}">{{.Title}}</a> ({{.Date}})</li>
+    {{end}}
+  </ol>
+{{end}}

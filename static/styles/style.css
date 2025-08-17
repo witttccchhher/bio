@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "CommitMono";
+  src: url("/static/fonts/CommitMono-400-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/static/fonts/CommitMono-400-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/static/fonts/CommitMono-700-Regular.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/static/fonts/CommitMono-700-Italic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "CommitMono", monospace;
+  font-size: 14px;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 77ch;
+  margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+footer {
+  margin-block: 10px;
+}
